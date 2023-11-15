@@ -26,7 +26,7 @@ export default function Header() {
         </div>
         <div className="section3">
             <div className="signin">
-                <button>Sravyayaaaaaaaaaaaaaaa</button>
+                <button>Sraaaaaaa</button>
             </div>
             <div className="orders">
                 <span>Returns</span>
