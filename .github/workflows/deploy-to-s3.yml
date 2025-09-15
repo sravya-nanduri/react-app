@@ -2,11 +2,10 @@ name: Build and Deploy Angular to S3
 
 on:
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Environment to deploy to'
-        required: false
-        default: 'prod'
+
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   build-and-deploy:
