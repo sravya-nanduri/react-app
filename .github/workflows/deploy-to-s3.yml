@@ -35,4 +35,4 @@ jobs:
           audience: sts.amazonaws.com
 
       - name: Sync dist to S3
-        run: aws s3 sync dist/ s3://test-bucket863908 --delete
+        run: aws s3 sync build/ s3://test-bucket863908 --delete
